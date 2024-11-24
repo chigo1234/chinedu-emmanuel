@@ -69,7 +69,7 @@ main{
 .hm-txt p{
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: red;
 }
 .btn{
     padding: 1rem 2rem;
@@ -84,7 +84,7 @@ main{
     transition: 0.3s ease;
 }
 .btn :hover{
-    background-color: black;
+    background-color: white;
     color: white;
 }
 .services{
@@ -108,8 +108,7 @@ main{
     width: 300px;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 0 0 10px;
-    rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px   rgba(0,0,0,0.1);
     text-align: center;
     
 }
@@ -128,6 +127,15 @@ main{
     font-size: 1rem;
     color: black;
     margin-bottom: 1rem;
+}
+footer{
+    background-color: #0a241b;
+    color: white;
+    text-align:center ;
+    padding: 1rem;
+    min-height: 15vh;
+    width: 100%;
+    
 }
 @media only screen and(max-width:600px){
     .nav-list{
