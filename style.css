@@ -137,6 +137,48 @@ footer{
     width: 100%;
     
 }
+#galle{
+    padding: 2rem;
+    background-color: white;
+    min-height: 90vh;
+}
+
+.fred {
+    border: solid 2px;
+}
+.fred1 {
+    border-color: pink;
+    background-color: pink;
+    grid-column: 1/3;
+}
+.fred2{
+    border-color: #6bc7b1;
+    background-color: #a5ebea;
+    grid-row: 2/3;
+} 
+.fred3 {
+    border-color: #876bc7;
+    background-color: #d4a5eb;
+}
+.fred4 {
+    border-color: #c7b96b;
+    background-color: #ebe6a5;
+}
+.fred5 {
+    border-color: #8ac76b;
+    background-color: #01f616;
+}
+.fred6 {
+    border-color: #6b8ec7;
+    background-color: #a5c7eb;
+    grid-column: 1/4;
+}
+.gallar{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 @media only screen and(max-width:600px){
     .nav-list{
         display: none;
